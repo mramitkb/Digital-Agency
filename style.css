@@ -263,3 +263,64 @@
 }
 
 /* Footer starts from here */
+.foot{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.footer-container{
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 0px 150px;
+}
+.footer-one{
+    width: 200px;
+    margin-top: -70px;
+}
+.footer-logo{
+    width: 180px;
+}
+.footer-p{
+    padding-top: 20px;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 5px; 
+}
+.fa-brands{
+    padding: 5px;
+    cursor: pointer;
+}
+.footer-all{
+    list-style: none;
+    padding-top: 20px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.space{
+    margin-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.hr{
+    width: 75%;
+    margin: 0px auto;
+    height: 1px;
+    background-color: gray;
+    border: none;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
