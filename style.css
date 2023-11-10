@@ -1,4 +1,86 @@
+    /* UNIVERSAL */
 *{
     margin: 0;
     padding: 0;
+}
+
+/* Navbar starts from here */
+.nav-container{
+    background-color: rgb(184, 182, 182);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digital{
+    color: aqua;
+}
+.nav-menus{
+    font-size: 18px;
+}
+.nav-a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-weight: 600;
+}
+.nav-a:hover{
+    color: white;
+}
+
+/* Banner starts from here */
+.banner-container{
+    height: 100vh;
+    color: white;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-size: 84px;
+    padding-bottom: 50px;
+}
+.title-red{
+    color: rgb(192, 29, 29);
+}
+.banner-p{
+    width: 51%;
+    margin: 20px auto;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}.btn-gray{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-red:hover{
+    background-color: green;
+}
+.btn-gray:hover{
+    background-color: green;
 }
