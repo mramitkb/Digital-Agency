@@ -171,3 +171,95 @@
     width: 100px;
     margin-bottom: 20px;
 }
+
+/* Appointment starts from here */
+.appointment-container{
+    background-color: #F52C2D;
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: -80px;
+}
+.call-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    border-right: 2px solid black;
+    padding-right: 30px;
+}
+.call-img{
+    width: 100px;
+}
+.number{
+    font-size: 32px;
+}
+.appoint-p{
+    padding-left: 20px;
+}
+.appoint-btn{
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+.appoint-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* Blog starts from here */
+.blog-container{
+    padding: 40px;
+    margin: 0px auto;
+}
+.blog-info{
+    text-align: center;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.red{
+    color: red;
+}
+.blog-p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.three-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first{
+    height: 400px;
+    width: 300px;
+    box-shadow: 5px 5px 10px 0px gray;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.card-img{
+    width: 300px;
+    border-radius: 5px;
+}
+.card-title{
+    margin: 10px auto;
+    padding: 0px 10px;
+}
+.card-p{
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+/* Footer starts from here */
